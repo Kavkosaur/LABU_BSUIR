@@ -71,4 +71,9 @@ public class Worker {
         return tax;
 
     }
+
+    @Override
+    public String toString() {
+        return "Worker : "+fio + "\n BD:"+birthDate+"\n Sex:"+sex +"\n Wage: "+zp+"\n " + "\n Tax : " + getNologi() + "\n";
+    }
 }

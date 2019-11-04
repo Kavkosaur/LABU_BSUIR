@@ -40,7 +40,6 @@ public class factoryWorker extends Worker {
 
     @Override
     public String toString() {
-        return "Factory Worker : "+fio + "\n BD:"+birthDate+"\n Sex:"+sex+"\n Work Exp. : " + workExperience + " h. \n level : "
-                + level + "\n Wage: "+zp+"\n Work Division:" + workDivision + "\n Tax : " + getNologi() + "\n\n\n";
+        return super.toString() + "Work division"+workDivision + "\n Work Exp."+workExperience+"\n\n\n";
     }
 }

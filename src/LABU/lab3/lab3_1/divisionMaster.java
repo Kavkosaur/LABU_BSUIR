@@ -36,9 +36,6 @@ public class divisionMaster extends Worker{
     }
     @Override
     public String toString() {
-        return "Division Master : " + fio + "\n BD:" + birthDate + "\n Sex:" + sex
-                + "\n Work Exp. : " + workExperience + " h. \n Division Name : "
-                + divisionName +"\n Division Personal : "+ divisionPersonal + " people" + "\n Wage: " + zp + "\n "
-                + "Tax : " + getNologi() + "\n\n\n";
+        return super.toString() + "Division name"+ divisionName + "\n Division Personal" + "\n\n\n";
     }
 }

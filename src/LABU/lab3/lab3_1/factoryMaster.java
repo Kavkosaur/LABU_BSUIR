@@ -30,8 +30,6 @@ public class factoryMaster extends Worker {
     }
     @Override
     public String toString() {
-        return "Factory Master : " + fio + "\n BD:" + birthDate + "\n Sex:" + sex
-                + "\n Work Exp. : " + workExperience + " h. \n term of election : "
-                + termOfElection + " years" + "\n Wage: " + zp + "\n " + "Tax : " + getNologi() + "\n\n\n";
+        return super.toString() + "Term of election" + termOfElection+"\n\n\n";
     }
 }
