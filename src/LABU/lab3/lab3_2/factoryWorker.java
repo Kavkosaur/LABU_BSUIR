@@ -18,14 +18,8 @@ package LABU.lab3.lab3_2;
 
 
 
-     public void work (){
-
-         System.out.println("ОПЯЯЯТЬ РАБОТА..........");
-     }
-     public void print(){
-         System.out.println("Обычный работяга "+name+"\n Работящий в отделении "+workDivision+"\n"+level+"левела \n\n\n");
-
-     }
+     public abstract void work ();
+     public abstract void print();
 
      public factoryWorker(String name, int workDivision, int level) {
          this.name = name;
