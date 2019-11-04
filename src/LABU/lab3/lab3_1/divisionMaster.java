@@ -1,11 +1,11 @@
-package LABU.lab3;
+package LABU.lab3.lab3_1;
 
 public class divisionMaster extends Worker{
 
     public String divisionName ;
     public int divisionPersonal;
 
-    public divisionMaster(String fio, double workExperience, double zp, Sex sex, LABU.lab3.birthDate birthDate, String divisionName, int divisionPersonal) {
+    public divisionMaster(String fio, double workExperience, double zp, Sex sex, LABU.lab3.lab3_1.birthDate birthDate, String divisionName, int divisionPersonal) {
         super(fio, workExperience, zp, sex, birthDate);
         this.divisionName = divisionName;
         this.divisionPersonal = divisionPersonal;

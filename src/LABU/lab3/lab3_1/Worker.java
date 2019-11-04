@@ -1,4 +1,4 @@
-package LABU.lab3;
+package LABU.lab3.lab3_1;
 
 public class Worker {
 
@@ -8,7 +8,7 @@ public class Worker {
     birthDate birthDate;
     public double nolog;
 
-    public Worker(String fio, double workExperience, double zp, Sex sex, LABU.lab3.birthDate birthDate) {
+    public Worker(String fio, double workExperience, double zp, Sex sex, LABU.lab3.lab3_1.birthDate birthDate) {
         this.fio = fio;
         this.workExperience = workExperience;
         this.zp = zp;
@@ -16,7 +16,7 @@ public class Worker {
         this.birthDate = birthDate;
     }
 
-    public Worker(String fio, double workExperience, double zp, LABU.lab3.birthDate birthDate) {
+    public Worker(String fio, double workExperience, double zp, LABU.lab3.lab3_1.birthDate birthDate) {
         this.fio = fio;
         this.workExperience = workExperience;
         this.zp = zp;
@@ -24,7 +24,7 @@ public class Worker {
         this.birthDate = birthDate;
     }
 
-    public Worker(String fio, double zp, LABU.lab3.birthDate birthDate) {
+    public Worker(String fio, double zp, LABU.lab3.lab3_1.birthDate birthDate) {
         this.fio = fio;
         this.workExperience = 0;
         this.zp = zp;
@@ -56,7 +56,7 @@ public class Worker {
         return sex;
     }
 
-    public LABU.lab3.birthDate getBirthDate() {
+    public LABU.lab3.lab3_1.birthDate getBirthDate() {
         return birthDate;
     }
 

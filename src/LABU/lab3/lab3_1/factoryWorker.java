@@ -1,21 +1,21 @@
-package LABU.lab3;
+package LABU.lab3.lab3_1;
 
 public class factoryWorker extends Worker {
     int workDivision , level ;
 
-    public factoryWorker(String fio, double workExperience, double zp, Sex sex, LABU.lab3.birthDate birthDate, int workDivision, int level) {
+    public factoryWorker(String fio, double workExperience, double zp, Sex sex, LABU.lab3.lab3_1.birthDate birthDate, int workDivision, int level) {
         super(fio, workExperience, zp, sex, birthDate);
         this.workDivision = workDivision;
         this.level = level;
     }
 
-    public factoryWorker(String fio, double workExperience, double zp, LABU.lab3.birthDate birthDate, int workDivision, int level) {
+    public factoryWorker(String fio, double workExperience, double zp, LABU.lab3.lab3_1.birthDate birthDate, int workDivision, int level) {
         super(fio, workExperience, zp, birthDate);
         this.workDivision = workDivision;
         this.level = level;
     }
 
-    public factoryWorker(String fio, double zp, LABU.lab3.birthDate birthDate, int workDivision, int level) {
+    public factoryWorker(String fio, double zp, LABU.lab3.lab3_1.birthDate birthDate, int workDivision, int level) {
         super(fio, zp, birthDate);
         this.workDivision = workDivision;
         this.level = level;

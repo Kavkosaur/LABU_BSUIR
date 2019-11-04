@@ -1,19 +1,19 @@
-package LABU.lab3;
+package LABU.lab3.lab3_1;
 
 public class factoryMaster extends Worker {
     double termOfElection;
 
-    public factoryMaster(String fio, double workExperience, double zp, Sex sex, LABU.lab3.birthDate birthDate, double termOfElection) {
+    public factoryMaster(String fio, double workExperience, double zp, Sex sex, LABU.lab3.lab3_1.birthDate birthDate, double termOfElection) {
         super(fio, workExperience, zp, sex, birthDate);
         this.termOfElection = termOfElection;
     }
 
-    public factoryMaster(String fio, double workExperience, double zp, LABU.lab3.birthDate birthDate, double termOfElection) {
+    public factoryMaster(String fio, double workExperience, double zp, LABU.lab3.lab3_1.birthDate birthDate, double termOfElection) {
         super(fio, workExperience, zp, birthDate);
         this.termOfElection = termOfElection;
     }
 
-    public factoryMaster(String fio, double zp, LABU.lab3.birthDate birthDate, double termOfElection) {
+    public factoryMaster(String fio, double zp, LABU.lab3.lab3_1.birthDate birthDate, double termOfElection) {
         super(fio, zp, birthDate);
         this.termOfElection = termOfElection;
     }

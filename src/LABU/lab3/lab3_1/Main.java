@@ -1,4 +1,4 @@
-package LABU.lab3;
+package LABU.lab3.lab3_1;
 
 public class Main {
     public static void main(String[] args) {
